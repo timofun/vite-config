@@ -20,7 +20,7 @@
     "outDir": "./",
     "types": ["vite-plugin-svgr/client"]
   },
-  "include": ["src"],
+  "include": ["src", "plugins"],
   "exclude": ["node_modules", "dist"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
